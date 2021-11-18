@@ -6,10 +6,28 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 header {
-    background: #1f2937;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background: #1f2937;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    color: #ffffff;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
