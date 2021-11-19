@@ -8,11 +8,12 @@ html {
 
 body {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+header, main .hero-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,9 +46,21 @@ ul {
     gap: 18px;
 }
 
-ul li {
+ul li, main .hero-section .leftSide p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-  
+main .hero-section .leftSide h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+main .hero-section .leftSide button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
