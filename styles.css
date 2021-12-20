@@ -1,0 +1,19 @@
+:root {
+    --main-bg-color: #1F2937;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+}
