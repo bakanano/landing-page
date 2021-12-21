@@ -1,8 +1,6 @@
 :root {
     --main-bg-color: #1F2937;
     --secondary-color: #3882f6;
-    --white: #ffffff;
-    --grey: #E5E7EB;
 }
 
 body {
@@ -19,7 +17,7 @@ body {
 
 .header, .footer, .hero-section {
     background-color: var(--main-bg-color);
-    color: var(--white);
+    color: white;
 }
 
 .header ul {
@@ -59,7 +57,7 @@ body {
 .heroLeft button {
     background: var(--secondary-color);
     border: none;
-    color: var(--white);
+    color: white;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -86,11 +84,38 @@ body {
 }
 
 .quote-section {
-    background-color: var(--grey);
+    background-color: #E5E7EB;
 }
 
 .quote-section p {
     font-size: 36px;
     font-style: italic;
     color: var(--main-bg-color);
+}
+
+.signup-section {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin: 20px 400px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.signup-section .sign-left {
+    color: white;
+}
+
+.signup-section .sign-right {
+    padding: 0 150px;
+}
+
+.sign-right button {
+    background: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px;
+
 }
