@@ -1,11 +1,14 @@
 :root {
     --main-bg-color: #1F2937;
+    --secondary-color: #3882f6;
+    --white: #ffffff;
 }
 
 body {
     padding: 0;
     margin: 0;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -13,9 +16,9 @@ body {
     flex-direction: column;
 }
 
-.header, .footer {
+.header, .footer, .hero-section {
     background-color: var(--main-bg-color);
-    color: #ffffff;
+    color: var(--white);
 }
 
 .header ul {
@@ -28,5 +31,42 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    flex-basis: 500px;
+}
+
+.heroLeft .heroSubText {
+    opacity: 0.5;
+
+}
+
+.heroLeft button {
+    background: var(--secondary-color);
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    align-self: flex-start;
+
+}
+
+.heroRight img {
+    width: auto;
+    height: auto;
 }
